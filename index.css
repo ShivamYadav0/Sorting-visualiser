@@ -1,0 +1,89 @@
+body {
+
+  
+
+    margin:0; 
+
+    padding:0;
+
+     align-items:center; 
+
+     text-align:center; 
+
+   }
+
+   h1{
+
+    background:red;
+
+    text-align:center;
+
+    border-radius:10px;
+
+ }
+
+   #box {
+
+     width:100vw;
+
+     background:linear-gradient(to right,
+
+     rgba(40, 0, 0),
+
+     rgba(45, 40, 20), rgba(50, 20, 40));
+
+     opacity:0.8;
+
+     min-height: 700px;
+
+     z-index:-1;
+
+     bottom: 0;
+
+     top:0;
+
+     position: absolute;
+
+     
+
+     
+
+   }
+
+   button{
+
+    border-radius:100px;
+
+    background-color: rgb(42, 156, 109);
+
+    margin:0px 5%;
+
+    color: rgb(247, 204, 11);
+
+    cursor: pointer;
+
+   }
+
+   #canv {
+
+   border-radius: 16px;
+
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+
+   backdrop-filter: blur(3px);
+
+   border: 1px solid rgba(255, 255, 255, 0.3);
+
+   background-color:#333333;
+
+   opacity:0.9;
+
+   margin-top:50px;
+
+   width:90vw;
+
+   height:70vh;
+
+   max-height:400px;
+
+   }
